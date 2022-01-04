@@ -4,16 +4,23 @@ body{
 }
 h1{
     font-size: 50px;
+    
+}
+h2{
+    font-size: 40px;
 }
 span{
     color: orange;
 }
-section{
+.fax-section{
     display: flex;
+    padding: 5%;
+    
 }
 .wel1{
     width: 50%;
     padding-left: 5%;
+
 }
 .wel1 img{
     width: 80%;
@@ -44,4 +51,33 @@ section{
     padding: 10px 30px;
     color: white;
     border-radius: 5px;
+}
+.orang-color{
+    color: orange;
+}
+.wel2{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.expr{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#green-c{
+    border-left: 10px solid;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+}
+#blue-c{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, green);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
