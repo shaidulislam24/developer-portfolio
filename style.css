@@ -31,3 +31,17 @@ section{
     background-repeat: no-repeat;
     
 }
+
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.link-cv{
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    font-weight: 700;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+}
